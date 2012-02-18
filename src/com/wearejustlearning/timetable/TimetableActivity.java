@@ -28,6 +28,6 @@ public class TimetableActivity extends Activity {
         String currentDateTimeString = SimpleDateFormat.getDateInstance().format(new Date());  
         SimpleDateFormat formatter = new SimpleDateFormat("hh:mm");  
         String formattedDateString = formatter.format(currentDateTimeString);
-    	label.steText(formattedDateString);
+    	label.setText(formattedDateString);
     }
 }
