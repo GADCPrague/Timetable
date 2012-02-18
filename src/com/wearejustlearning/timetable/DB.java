@@ -1,5 +1,5 @@
 package com.wearejustlearning.timetable;
 
-public class database {
+public class DB {
 
 }
